@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700');
+
+/*====================================
+@Author: Alan Maher
+@URL: https://scorptech.github.io/milestoneone/
+Author E-mail: info@crossakiel.com
+======================================*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    }
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    }
+
+
+.col {
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+
+.row {
+    padding: 0;
+    margin: 0;
+    }
+
+/* Background images*/
+.image-asteroid {
+    background-image: url("../images/banner4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: -100px;
+}
+
+.header {
+    margin-top: 150px;
+}
+
+.header h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.sub-header {
+    font-size: 30px;
+    color: #fff;
+}
+
+.sentry_text p {
+    Margin: 20px 20px 0px 20px;
+
+}
+
+
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+
+.header h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.sub-header {
+    font-size: 20px;
+    color: #fff;
+    margin: 0px 10px 0px 10px;
+}
+
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
