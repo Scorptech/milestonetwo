@@ -1,3 +1,4 @@
+
 var ctx = document.getElementById('impact_bar').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
@@ -92,3 +93,78 @@ var myPieChart = new Chart(ctx, {
     }
 });
 
+
+var ctx = document.getElementById('impact_line').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: 'rgb(54, 162, 235, 0.2)',
+            borderColor: 'rgb(54, 162, 235)',
+            data: [45, 30, 20, 2, 5, 10, 0]
+        }]
+    },
+
+    // Configuration options go here
+    options: {
+        maintainAspectRatio: false,
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+            layout: {
+            padding: {
+                left: 20,
+                right: 20,
+                top: 0,
+                bottom: 0
+            }}
+    }
+});
+
+
+var ctx = document.getElementById('impact_scatter').getContext('2d');
+
+var scatterChart = new Chart(ctx, {
+    type: 'scatter',
+    data: {
+        datasets: [{
+            label: 'Scatter Dataset',
+            pointBackgroundColor: ['red', 'red', 'red', 'red', 'red', 'red', 'red', 'red', 'red'],
+            data: [
+                {x: 1, y: 10},
+                {x: -8, y: 7},
+                {x: 5, y: 10},
+                {x: 3, y: 8},
+                {x: 1, y: -4},
+                {x: 9, y: -2},
+                {x: 9, y: 1},
+                {x: -1, y: 5},
+                {x: 6, y: 6}
+            ]
+        }]
+    },
+    options: {
+        scales: {
+            xAxes: [{
+                type: 'linear',
+                position: 'bottom'
+            }]
+        },
+            layout: {
+            padding: {
+                left: 20,
+                right: 20,
+                top: 0,
+                bottom: 0
+            }}
+    }
+});
