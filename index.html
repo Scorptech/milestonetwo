@@ -50,7 +50,7 @@
 
 <section class="container-fluid header_text">
 	<div class="row">
-		<div class="col-12 col-md-6 text-justify sentry_text col-left">
+		<div class="col-12 col-md-12 col-lg-6 text-justify sentry_text col-left">
 			<h2>Context</h2>
 			<p>An asteroid's orbit is computed by finding the elliptical path about the sun that best fits
 				the available observations of the object. That is, the object's computed path about the sun is adjusted
@@ -67,7 +67,7 @@
 				the object is added to a queue of objects awaiting analysis. Its
 				position in the queue is determined by the estimated likelihood that potential impacts may be found.</p>
 		</div>
-		<div class="col-12 col-md-6 text-justify sentry_text">
+		<div class="col-12 col-md-12 col-lg-6 text-justify sentry_text">
 			<h2>Content</h2>
 			<p>Sentry is a highly automated collision monitoring system that continually scans the most
 				current asteroid catalog for possibilities of future impact with Earth over the next 100 years. This
@@ -78,20 +78,26 @@
 			orbit and impact risk data was collected by NASA's Near Earth Object Program at the Jet Propulsion
 			Laboratory (California Institute of Technology).</p>
 		</div>
-		<div class="w-100"></div>
-		<div class="col">Column</div>
-		<div class="col">Column</div>
-		<div class="w-100"></div>
-		<div class="col">Column</div>
-		<div class="col">Column</div>
 	</div>
 </section>
+
+<section class="container-fluid impact_charts">
+  <div class="row">
+    <div class="col-12 col-md-12 col-lg-6"><canvas id="impact_bar" height="400" width="200"></div>
+    <div class="col-12 col-md-12 col-lg-6"><canvas id="impact_pie" height="400" width="400"></div>
+    <div class="w-100"></div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</section>
+
 
 </main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.2/dist/Chart.min.js"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>
