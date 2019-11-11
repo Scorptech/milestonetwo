@@ -54,6 +54,26 @@ body, html {
     color: #fff;
 }
 
+.navbar {
+    background-color: #1d7fc1;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    
+}
+
+a:link {
+    color: #fff;
+    }
+  
+    a:hover {
+      color: #fff;
+      font-weight: 500;
+    }
+
 
 /* Header Text Section*/
 .sentry_text h2, p {
@@ -64,6 +84,66 @@ body, html {
 .impact_charts {
     margin: 0px 0px 50px 0px;
 }
+
+
+/* Email Form*/
+.send_form {
+    padding: 30px 0px 30px 0px;
+    background-color: #f8f9fa;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #36a2eb;
+    }
+
+.btn:hover {
+    margin-top: 10px;
+    background-color: #1d7fc1;
+    }
+
+
+/* Footer*/
+.impact_footer {
+    background-color: #1d7fc1;
+    text-align: center;
+    color: #fff;
+}
+
+.align_text {
+    padding: 15px 0 0 0;   
+}
+
+
+.social-links {
+    padding: 0 0 5px 0;
+    }
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #1d7fc1;
+  background: #d7ecfb;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  }
+
+.social-links li a i:hover {
+   background: #36a2eb;
+   color: #fff;
+   } 
+
+
+
+
+
 
 
 
@@ -89,7 +169,6 @@ body, html {
 }
 
 }
-
 
 
 @media all and (max-width: 959px) and (min-width: 600px) {
