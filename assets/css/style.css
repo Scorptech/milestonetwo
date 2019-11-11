@@ -30,7 +30,7 @@ body, html {
     margin: 0;
     }
 
-/* Background images*/
+/* Header Image*/
 .image-asteroid {
     background-image: url("../images/banner4.jpg");
     background-position: center;
@@ -54,10 +54,16 @@ body, html {
     color: #fff;
 }
 
+
+/* Header Text Section*/
 .sentry_text h2, p {
      margin: 10px 20px 10px 20px;
 }
 
+/* Chart Section*/
+.impact_charts {
+    margin: 0px 0px 50px 0px;
+}
 
 
 
@@ -85,6 +91,7 @@ body, html {
 }
 
 
+
 @media all and (max-width: 959px) and (min-width: 600px) {
 
 .image-asteroid {
@@ -94,7 +101,8 @@ body, html {
     background-repeat: no-repeat;
     height: 450px;
     }
-
 }
 
-
+.impact_charts .col-lg-6 {
+    margin-top: 50px;
+}
