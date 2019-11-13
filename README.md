@@ -1,10 +1,12 @@
 <img src="assets/images/ms2_impactearth.jpg" alt="Impact Earth Website" style="float: left; margin-right: 10px;" />
 
+
+
 Over the last few years, the media has been very vocal about near earth objects and the proximity of them regarding the planet. So with the “Impact Earth” website, I have listed a number of known asteroids, the dates when they are due and other details regarding their size, speed and impact potential. 
 
 #### The goals of this website are:
 
--   To give people informaion relating to potential issues with near earth objects
+-   To give people information relating to potential issues with near earth objects
 -   Give visitors an uncluttered, easy to use and graphically pleasing website experience
 -   To allow visitors to request more information about this data via the contact form
 
@@ -12,7 +14,7 @@ Over the last few years, the media has been very vocal about near earth objects 
 
 -   The visitor to be able to search for information about near earth objects.
 -   Clear easy navigation.
--   Details information about the Size, Speed and the impat posibilities.
+-   Details information about the size, speed and the impact posibilities.
 
 ## UX
 
@@ -28,7 +30,7 @@ Over the last few years, the media has been very vocal about near earth objects 
 #### Visitors to this website are searching for:
 
 -   Information related to near earth objects 
--   Information regarding the system that is used by NASA to monitor near earth objects
+-   Information regarding the system that is used by NASA to monitor near earth objects called Sentry
 
 #### This project is the best way to help them achieve these things because:
 
@@ -42,14 +44,14 @@ As this website is a general website, no particular colour scheme was required h
 -   Easy to navigate.
 -   Easy to understand and navigate the information.
 -   Gives the visitor the general information.
--   Gives them the option to send a request/query via the contact form.
+-   Gives the visitor the option to send a request/query via the contact form.
 
 #### viewer stories
 
 1.  As a new visitor to the website, I want to easily navigate the site and understand the information 
 2.  As a new visitor to the website, I want the ability to contact the owner should I need more information. 
 7.  As an interested visitor, I want an "easy to fill" contact form, so I can make contact with website owner.
-8.  As an interested observer and/or potential visitor, I want to follow the owner on social media to keep up with their latest news.
+8.  As an interested visitor, I want to follow the owner on social media to keep up with their latest news.
 9.  As a returning visitor to the website, who has already decided to contact the owner, I want to check for updates to the information.
 
 #### Wireframe mockups:
@@ -88,7 +90,7 @@ The contact page form is working and was setup using the Emailjs free service an
 
 -   Footer Social Icons - Allows all visitors to access the social platforms that the owner uses.
 
--   The Charts - Allows visitors to see the information in an easy to understand formation.
+-   The Charts - Allows visitors to see the information in an easy to understand format.
 
 -   Contact Form - Allows visitors to ask questions, and/or make the first step with their queries.
 
@@ -152,7 +154,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 -   [Simen Daehlin](https://www.github.com/Eventyret) originally suggested using chartjs after informing me that D3 charts were not responsive. 
 
--   Bootstap and CSS Coding ideas came from [MD Bootstrap](https://mdbootstrap.com)
+-   Some bootstap and CSS Coding ideas came from [MD Bootstrap](https://mdbootstrap.com)
 
 ### Content
 
