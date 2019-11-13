@@ -190,5 +190,5 @@ Many thanks!
 
 Alan
 
-<img src="assets/images/responsive-image.jpg" alt="WeBuilder Website | Responsive Image"/>
+<img src="assets/images/responsive_image.jpg" alt="Impact Earth Website | Responsive Image"/>
 
