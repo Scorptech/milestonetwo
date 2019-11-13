@@ -1,4 +1,4 @@
-
+/* Chartjs Bar Chart*/
 var ctx = document.getElementById('impact_bar').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
@@ -47,7 +47,7 @@ var myChart = new Chart(ctx, {
     }
 });
 
-
+/* Chartjs Pie Chart*/
 var ctx = document.getElementById('impact_pie').getContext('2d');
 
 var myPieChart = new Chart(ctx, {
@@ -119,7 +119,7 @@ var myPieChart = new Chart(ctx, {
     }
 });
 
-
+/* Chartjs Line Chart*/
 var ctx = document.getElementById('impact_line').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
@@ -156,7 +156,7 @@ var chart = new Chart(ctx, {
     }
 });
 
-
+/* Chartjs Horizontal Bar Chart*/
 var ctx = document.getElementById('impact_hozbar').getContext('2d');
 var myBarChart = new Chart(ctx, {
     type: 'horizontalBar',
@@ -204,50 +204,3 @@ var myBarChart = new Chart(ctx, {
     }
 });
 
-
-/*
-var ctx = document.getElementById('impact_scatter').getContext('2d');
-
-var scatterChart = new Chart(ctx, {
-    type: 'scatter',
-    data: {
-        datasets: [{
-            label: 'Scatter Dataset',
-            pointBackgroundColor: ['red', 'red', 'red', 'red', 'red', 'red', 'red', 'red', 'red'],
-            data: [
-                {x: 1, y: 10},
-                {x: -8, y: 7},
-                {x: 5, y: 10},
-                {x: 3, y: 8},
-                {x: 1, y: -4},
-                {x: 9, y: -2},
-                {x: 9, y: 1},
-                {x: -1, y: 5},
-                {x: 6, y: 6}
-            ]
-        }]
-    },
-    options: {
-        scales: {
-            xAxes: [{
-                type: 'linear',
-                position: 'bottom'
-            }]
-        },
-            layout: {
-            padding: {
-                left: 20,
-                right: 20,
-                top: 0,
-                bottom: 0
-            }}
-    }
-});
-
-I did some quick investigation and found the workaround:
-myLineChart.scale.xLabels = ["label1", "label2", "label3"];
-myLineChart.update();
-
-
-
-*/
