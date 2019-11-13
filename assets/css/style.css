@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700');
 
-/*====================================
+/*=============================================
 @Author: Alan Maher
-@URL: https://scorptech.github.io/milestoneone/
+@URL: https://scorptech.github.io/milestonetwo/
 Author E-mail: info@crossakiel.com
-======================================*/
+===============================================*/
 
 body, html {
     margin: 0;
@@ -54,6 +54,7 @@ body, html {
     color: #fff;
 }
 
+/* Navigation Section*/
 .navbar {
     background-color: #1d7fc1;
     color: #fff;
@@ -145,8 +146,7 @@ a:link {
 
 
 
-
-
+/* Media Queries*/
 @media all and (max-width: 599px) and (min-width: 320px) {
 
 .header h1 {
