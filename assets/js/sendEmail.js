@@ -1,3 +1,4 @@
+/* EmailJS SMTP Server Details*/
 function sendMail(contactForm) {
     emailjs.send("blacknight", "template_X510oNUx", {
         "from_name": contactForm.name.value,
