@@ -56,7 +56,7 @@ As this website is a general website, no particular colour scheme was required h
 
 #### Wireframe mockups:
 
-* [Home Page](https://github.com/Scorptech/milestoneone/blob/master/wireframes/1-home.jpg)
+* [Home Page](https://github.com/Scorptech/milestonetwo/blob/master/wireframe/wireframe.jpg)
 
 After completing MS1, I decided to follow the same design for MS2 and have everything on one page (mobile first). 
 
