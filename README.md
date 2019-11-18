@@ -46,7 +46,7 @@ As this website is a general website, no particular colour scheme was required h
 -   Gives the visitor the general information.
 -   Gives the visitor the option to send a request/query via the contact form.
 
-#### viewer stories
+#### Viewer stories
 
 1.  As a new visitor to the website, I want to easily navigate the site and understand the information 
 2.  As a new visitor to the website, I want the ability to contact the owner should I need more information. 
