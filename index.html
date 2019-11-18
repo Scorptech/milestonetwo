@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
+    <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+    <script>
     (function(){
       emailjs.init("user_yiy7alFPx6e26uJHDhC5a");
     })();
@@ -111,11 +110,11 @@
 </div>
     <div class="col-12 col-md-12 col-lg-4">
 <form onsubmit="return sendMail(this);">
-        <label for="exampleFormControlInput1">Name:</label>
+        <label for="FormControlInput1">Name:</label>
         <input type="text" name="name" class="form-control" id="fullname" placeholder="Type Name Here" required/>
-        <label for="exampleFormControlInput2">Email Address:</label>
+        <label for="FormControlInput2">Email Address:</label>
         <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Type Email Address Here" required/>
-        <label for="exampleFormControlTextarea1">Query:</label>
+        <label for="FormControlTextarea1">Query:</label>
         <textarea rows="5" name="requestsummary" class="form-control" id="requestsummary" placeholder="Type Your Query Here" required></textarea>
         <button type="submit" class="btn btn-secondary center-block">Send</button>
         </form>
@@ -178,5 +177,6 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.2/dist/Chart.min.js"></script>
 <script src="assets/js/script.js"></script>
 <script src="assets/js/sendEmail.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
 </body>
 </html>
