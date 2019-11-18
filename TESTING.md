@@ -38,8 +38,10 @@ As a returning visitor to the website, who has already decided to contact the ow
 
 ### Manual (logical) testing of all elements and functionality on every page.
 
-The build of the website followed bootstrap guidelines. After originally speaking to my old mentor, he suggested using chartjs as D3
-was not responsive.  Chartjs also seemed easier to work with although it has limitations which I found out.  
+The build of the website followed bootstrap guidelines. I originally started off using D3 for the charts and used cross filtering but
+after speaking to my old mentor, he suggested using chartjs as D3 was not responsive and although this is a d3 system problem,
+he said that I would be marked down for this, so I decided to use chartjs as they are responsive. Chartjs also seemed easier to 
+work with although it has limitations which I found out regarding cross filtering and limited labeling which would of been nice to use.  
 
 ### Home Page:
 
