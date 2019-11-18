@@ -75,6 +75,11 @@ a:link {
       font-weight: 500;
     }
 
+a:visited {
+      color: #fff;
+      font-weight: 500;
+    }
+
 
 /* Header Text Section*/
 .sentry_text h2, p {
